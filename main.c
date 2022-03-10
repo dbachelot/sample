@@ -4,6 +4,11 @@ inline int sub(int a, int b) {
    return (a - b);
 }
 
+inline int Div(int a, int b)
+{
+   return a/b;
+}
+
 int main() 
 {
    printf("Hello, World!");
