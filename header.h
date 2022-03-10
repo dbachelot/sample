@@ -7,14 +7,19 @@ inline int mul(int a, int b) {
    return (a * b);
 }
 
+inline void print(int o)
+{
+   printf("number=%d",o);
+}
+
 inline int Add(int a, int b)
 {
    return a+b;
 }
 
-inline void print(int o)
+inline int Div(int a, int b)
 {
-   printf("number=%d",o);
+   return a/b;
 }
 
 #endif
