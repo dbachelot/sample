@@ -8,6 +8,11 @@ T Sub(T a, T b) {
    return a-b;
 }
 
+template <typename T>
+T Div(T a, T b) {
+   return a/b;
+}
+
 void main() {
 
 }
