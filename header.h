@@ -3,4 +3,8 @@
 
 #include <stdio.h>
 
+inline int mul(int a, int b) {
+   return (a * b);
+}
+
 #endif
